@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 Pulse поддерживает Bot API совместимый с Telegram по структуре.
 
-Базовый URL: `https://ваш-сервер.com/api/bot/:token/`
+Базовый URL: `https://auragram-telegram-web.hf.space/api/bot/:token/`
 
 | Метод | Эндпоинт |
 |---|---|
