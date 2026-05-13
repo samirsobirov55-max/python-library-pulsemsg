@@ -45,7 +45,7 @@ pip install pulsemsg
 from pulsemsg import Bot, Dispatcher, F, Command, run_polling
 from pulsemsg.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = Bot(token="ВАШ_ТОКЕН", base_url="https://auragram-telegram-web.hf.space")
+bot = Bot(token="ВАШ_ТОКЕН", base_url="https://auragram-telegram-web.hf.space") # <<НЕ МЕНЯТЬ base_url!!
 dp  = Dispatcher()
 
 @dp.message(Command("start"))
