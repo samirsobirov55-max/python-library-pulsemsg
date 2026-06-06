@@ -45,7 +45,7 @@ pip install pulsemsg
 from pulsemsg import Bot, Dispatcher, F, Command, run_polling
 from pulsemsg.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = Bot(token="ВАШ_ТОКЕН", base_url="https://auragram-telegram-web.hf.space") # <<НЕ МЕНЯТЬ base_url!!
+bot = Bot(token="ВАШ_ТОКЕН", base_url="https://www.pulsemessenger.space") # <<НЕ МЕНЯТЬ base_url!!
 dp  = Dispatcher()
 
 @dp.message(Command("start"))
@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 Pulse поддерживает Bot API совместимый с Telegram по структуре.
 
-Базовый URL: `https://auragram-telegram-web.hf.space/api/bot/:token/`
+Базовый URL: `https://www.pulsemessenger.space/api/bot/:token/`
 
 | Метод | Эндпоинт |
 |---|---|
