@@ -65,23 +65,6 @@ if __name__ == "__main__":
 
 Токен получи у `@botfather` внутри Pulse. Подробнее: [pypi.org/project/pulsemsg](https://pypi.org/project/pulsemsg/)
 
----
-
-## 🛠 Стек технологий
-
-| Часть | Технологии |
-|---|---|
-| **Клиент** | React 18, Vite, Socket.IO, Axios |
-| **Сервер** | Node.js, Express, Socket.IO, JWT, Multer |
-| **База данных** | MongoDB (Mongoose) |
-| **Деплой** | Docker, Hugging Face Spaces |
-| **Мобильный** | Capacitor (Android / iOS) |
-| **Desktop** | Electron |
-| **Bot SDK** | Python / pulsemsg |
-
----
-
-
 ## 🔌 Bot API
 
 Pulse поддерживает Bot API совместимый с Telegram по структуре.
